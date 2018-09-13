@@ -3,6 +3,8 @@
 @media #{$tabletPortrait} {
     @import '../mobile';
   	& {
-     
+      .container, .r2 .container {
+        max-width: 530px;
+      }
 	}
 }

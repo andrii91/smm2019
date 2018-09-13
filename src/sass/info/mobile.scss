@@ -1,6 +1,265 @@
 & {
-  
+
+
+  main {
+    overflow: hidden;
+  }
+  img {
+    max-width: 100%;
+  }
+  .logo {
+    max-width: 124px;
+    display: block;
+  }
+  .contacts a:nth-child(2) {
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 0;
+  }
+  .contacts a {
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .head-item h1 {
+    font-size: 50px;
+    span {
+      margin: 0;
+      &:nth-child(2) {
+        margin-left: -5px;
+        letter-spacing: 0;
+      }
+    }
+  }
+  .head {
+    text-align: center;
+    background-position: right;
+    padding: 80px 0 20px;
+  }
+  .head-item p {
+    font-size: 16px;
+  }
+  .check {
+    text-align: left;
+    .head-check {
+      margin-bottom: 20px;
+    }
+  }
+  .order-btn {
+        padding: 19.5px 65px 19.5px 15px;
+  }
+  .order-btn,
+  .one_year-subtitle {
+    font-size: 16px;
+    br {
+      display: none;
+    }
+  }
+  .one_year,
+  .whom,
+  .how,
+  .reviews,
+  .support {
+    padding: 50px 0;
+  }
+  .h2-title,
+  .one_year-block .title,
+  .whom-title,
+  .last_time-title,
+  .assessment-title,
+  .assessment-item .title {
+    font-size: 30px;
+    margin-bottom: 15px;
+    text-align: center;
+    br {
+      display: none;
+    }
+  }
+  .assessment-item .title {
+    margin-left: 0
+  }
+  .one_year-block {
+    padding: 20px;
+    background-size: cover;
+  }
+  .one_year-list li {
+    font-size: 14px;
+    margin-bottom: 10px;
+    padding-left: 60px;
+    br {
+      display: none;
+    }
+  }
+  .whom-item {
+    text-align: center;
+    .icon {
+      text-align: center;
+    }
+  }
+  .mt50 {
+    margin-top: 20px;
+  }
+
+  .last_time {
+    padding: 15px;
+    background-size: cover;
+  }
+  .last_time-item {
+    text-align: center;
+  }
+  .last_time-video {
+    margin-bottom: 30px;
+  }
+  .how .h2-title {
+    margin-bottom: 25px;
+  }
+  .how-item {
+    br {
+      display: none;
+    }
+    margin-bottom: 30px;
+    .icon {
+      margin-bottom: 15px;
+    }
+    .title {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 18px;
+    }
+
+  }
+  .how-bottom {
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+    .count {
+      display: block;
+    }
+  }
+  .instruments-subtitle {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  .instruments-carousel .item .img {
+    padding-top: 0;
+  }
+  .instruments-carousel {
+    padding: 0px 20px;
+  }
+  .instruments-carousel .instruments-item {
+    padding-bottom: 40px;
+  }
+  .programs {
+    padding-top: 0;
+  }
+  .programs .h2-title {
+    margin-bottom: 20px;
+  }
+  .programs-item .top {
+    margin-bottom: 15px;
+  }
+  .programs-item {
+    margin-bottom: 30px;
+  }
+  .programs-item .top .title {
+    font-size: 20px;
+  }
+  .launching-title {
+    font-size: 84px;
+    span {
+      &:last-child {
+        margin-top: -10px;
+      }
+    }
+  }
+  .launching {
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }
+  .reviews-carousel {
+    margin: 30px 0;
+  }
+  .support-img {
+    display: none;
+  }
+  .support {
+    text-align: center;
+    br {
+      display: none;
+    }
+  }
+  .support-info {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .reviews-item {
+    padding: 15px;
+    text-align: center;
+    &:before {
+      display: none;
+    }
+    br {
+      display: none;
+    }
+    .title {
+      font-size: 19px;
+      margin-bottom: 10px;
+    }
+  }
+  .reviews-btn {
+    width: 100%;
+  }
+  .xs-first {
+    -ms-flex-order: -1;
+    order: -1;
+  }
+  .assessment {
+    padding-bottom: 50px;
+  }
+  .how_work-subtitle {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  .how_work-item {
+    margin-bottom: 40px;
+    br {
+      display: none;
+    }
+  }
+  .launching-content {
+    padding-left: 10px;
+    padding-right: 10px;
+    br {
+    display: none;
+    }
+  }
+  .speaker-title {
+    font-size: 35px;
+  }
+  .speaker, .speaker-item {
+    text-align: center;
+  }
+  .speaker-item ul li {
+    text-align: left;
+  }
+  .speaker-title {
+    margin-bottom: 30px;
+  }
+  .address-item {
+    margin-bottom: 30px;
+  }
+  .address {
+    padding-bottom: 50px;
+  }
+  .packages-item {
+    margin-bottom: 30px;
+  }
+  .assessment-item:before {
+    width: 100%;
+  }
+  .assessment {
+    text-align: center;
+  }
 }
-
-
-

@@ -140,7 +140,7 @@
             </div>
           </div>
         </div>
-        <div class="text-center mt50"><a href="#" class="order-btn">Это для меня, иду</a></div>
+        <div class="text-center mt50"><a data-fancybox href="#form" class="order-btn">Это для меня, иду</a></div>
       </div>
     </div>
     <div class="last_time">
@@ -240,7 +240,7 @@
                   <div class="title">IG TV</div>
                   <p>«Кто-то приходит к бизнес-тренингам из потребности заработать, кто-то из потребности выговориться, я пришел из потребности менять. </p>
                   <p>Я искренне верю, что бизнес-тренинг может влиять на душу человека не меньше чем искусство.</p>
-                  <a href="#" class="order-btn">Перестать игнорировать</a>
+                  <a data-fancybox href="#form" class="order-btn">Перестать игнорировать</a>
                 </div>
               </div>
               <div class="item row igtv align-items-center">
@@ -253,7 +253,7 @@
                   <div class="title">IG TV</div>
                   <p>«Кто-то приходит к бизнес-тренингам из потребности заработать, кто-то из потребности выговориться, я пришел из потребности менять. </p>
                   <p>Я искренне верю, что бизнес-тренинг может влиять на душу человека не меньше чем искусство.</p>
-                  <a href="#" class="order-btn">Перестать игнорировать</a>
+                  <a data-fancybox href="#form" class="order-btn">Перестать игнорировать</a>
                 </div>
               </div>
             </div>
@@ -499,11 +499,11 @@
             <div class="reviews-item">
               <div class="title">«Для меня теперь SMM <br>никогда уже не будет прежним»</div>
               <p>Алина, SMM менеджер Тинькоф Банк</p>
-              <a href="#" class="reviews-btn">Смотрите видео-отзыв</a>
+              <a data-fancybox="gallery" href="http://www.youtube.com/watch?v=_pSkx2ScJKs" class="reviews-btn">Смотрите видео-отзыв</a>
             </div>
           </div>
-          <div class="col-xl-4">
-            <div class="reviews-photo">
+          <div class="col-xl-4 xs-first ">
+            <div class="reviews-photo" data-fancybox="gallery_1" data-src="http://www.youtube.com/watch?v=_pSkx2ScJKs">
               <img src="images/sdef48sd8.png" alt="">
             </div>
             <div class="reviews-name">Дубовченко<br> Елена</div>
@@ -511,7 +511,7 @@
         </div>
         <div class="row">
           <div class="col-xl-4">
-            <div class="reviews-photo">
+            <div class="reviews-photo" data-fancybox="gallery_1" data-src="http://www.youtube.com/watch?v=_pSkx2ScJKs">
               <img src="images/sdef48sd8.png" alt="">
             </div>
             <div class="reviews-name">Дубовченко<br> Елена</div>
@@ -520,7 +520,7 @@
             <div class="reviews-item left">
               <div class="title">«Для меня теперь SMM <br>никогда уже не будет прежним»</div>
               <p>Алина, SMM менеджер Тинькоф Банк</p>
-              <a href="#" class="reviews-btn">Смотрите видео-отзыв</a>
+              <a data-fancybox="gallery" href="http://www.youtube.com/watch?v=_pSkx2ScJKs" class="reviews-btn">Смотрите видео-отзыв</a>
             </div>
           </div>
         </div>
@@ -529,11 +529,11 @@
             <div class="reviews-item">
               <div class="title">«Для меня теперь SMM <br>никогда уже не будет прежним»</div>
               <p>Алина, SMM менеджер Тинькоф Банк</p>
-              <a href="#" class="reviews-btn">Смотрите видео-отзыв</a>
+              <a data-fancybox="gallery" href="http://www.youtube.com/watch?v=_pSkx2ScJKs" class="reviews-btn">Смотрите видео-отзыв</a>
             </div>
           </div>
-          <div class="col-xl-4">
-            <div class="reviews-photo">
+          <div class="col-xl-4 xs-first ">
+            <div class="reviews-photo" data-fancybox="gallery_1" data-src="http://www.youtube.com/watch?v=_pSkx2ScJKs">
               <img src="images/sdef48sd8.png" alt="">
             </div>
             <div class="reviews-name">Дубовченко<br> Елена</div>
@@ -846,7 +846,7 @@
           <div class="col-12">
             <div class="h2-title">Остались вопросы?</div>
             <div class="questions-info">Задайте их нашему менеджеру <br>и получите исчерпывающий ответ.</div>
-            <a data-fancybox  href="#quest" class="order-btn">Задать вопрос</a>
+            <a data-fancybox href="#quest" class="order-btn">Задать вопрос</a>
           </div>
         </div>
       </div>
@@ -905,24 +905,25 @@
     <div class="arr-head"><img src="images/play-button.png" alt=""></div>
   </footer>
 
-<div class="modal" id="form">
-  <form action="#" method="post" class="form">
-    <input type="text" name="name" placeholder="Имя" required>
-    <input type="tel" name="phone" placeholder="Телефон" required>
-    <input type="email" name="email" placeholder="E-mail" required>
-    <button type="submit" class="order-btn">Забронировать место</button>
-  </form>
-</div>
+  <div class="modal" id="form">
+    <form action="#" method="post" class="form">
+      <input type="text" name="name" placeholder="Имя" required>
+      <input type="tel" name="phone" placeholder="Телефон" required>
+      <input type="email" name="email" placeholder="E-mail" required>
+      <button type="submit" class="order-btn">Забронировать место</button>
+    </form>
+  </div>
 
-<div class="modal" id="quest">
-  <form action="#" method="post" class="form">
-    <input type="text" name="name" placeholder="Имя" required>
-    <input type="tel" name="phone" placeholder="Телефон" required>
-    <input type="email" name="email" placeholder="E-mail" required>
-    <textarea name="mess" placeholder="Ваш вопрос" ></textarea>
-    <button type="submit" class="order-btn">Задать вопрос</button>
-  </form>
-</div>
+  <div class="modal" id="quest">
+    <form action="#" method="post" class="form">
+      <input type="text" name="name" placeholder="Имя" required>
+      <input type="tel" name="phone" placeholder="Телефон" required>
+      <input type="email" name="email" placeholder="E-mail" required>
+      <textarea name="mess" placeholder="Ваш вопрос"></textarea>
+      <button type="submit" class="order-btn">Задать вопрос</button>
+    </form>
+  </div>
+  
   <script src="js/vendor.js"></script>
   <script src="js/app.js"></script>
 </body>
